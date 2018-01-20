@@ -1,0 +1,24 @@
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>WikiPedia Viewer</title>
+	<meta name="discription" content="wikipedia viewer with search options">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
+	<link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+	<div class="main-container">
+		<h1 class="app-title">wikipedia viewer application</h1>
+
+		<a class="random" href="https://en.wikipedia.org/wiki/Special:Random" target="_blank">Click here for a random article</a>
+		
+		<form action="#" method="get" id="wiki-search-form">
+			<input type="text" name="searchInput" id="txt-search" onfocus="this.value=''" value= "Search Wiki">
+			<button type="button" name="btnWikiSearch" id="btn-wiki-search"><i class="fa fa-search magnify-glass" aria-hidden="true"></i></button>
+		</form>
+		<div id="article-list-container"></div>
+	</div>
+	 <script src="https://use.fontawesome.com/2361417e27.js"></script>
+	<script src="js/wikipediaViewerApp.js"></script>
+</body>
+</html>

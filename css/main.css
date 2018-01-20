@@ -1,0 +1,87 @@
+body {
+  font-size: 67.5%;
+  background-color: white; }
+
+.main-container {
+  display: flex;
+  flex-direction: column; }
+  .main-container .app-title {
+    color: #2A4E91;
+    text-align: center;
+    font-size: 2.6vw;
+    text-transform: uppercase; }
+  .main-container .random {
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    color: black;
+    font-size: 1.2vw;
+    width: 20%;
+    align-self: center; }
+  .main-container #wiki-search-form {
+    align-self: center;
+    border: 0.2rem solid #00CCFF;
+    border-radius: 1rem; }
+    .main-container #wiki-search-form:focus {
+      outline: none; }
+    .main-container #wiki-search-form #txt-search {
+      background-color: white;
+      color: black;
+      padding: .4rem;
+      width: 84%;
+      border-style: none;
+      border-radius: 1rem 0rem 0rem 1rem; }
+      .main-container #wiki-search-form #txt-search:focus {
+        outline: none; }
+    .main-container #wiki-search-form #btn-wiki-search {
+      background-color: #703030;
+      color: black;
+      padding: .4rem;
+      align-self: center;
+      border-style: none;
+      border-radius: 0rem 1rem 1rem 0rem; }
+      .main-container #wiki-search-form #btn-wiki-search:focus {
+        outline: none; }
+      .main-container #wiki-search-form #btn-wiki-search .magnify-glass {
+        display: inline-block;
+        font-size: 10rem;
+        width: .4rem;
+        height: .4rem;
+        border: 0.1rem solid #00CCFF;
+        position: relative;
+        border-radius: .35rem; }
+        .main-container #wiki-search-form #btn-wiki-search .magnify-glass:before {
+          content: " ";
+          display: inline;
+          position: absolute;
+          right: -.25rem;
+          bottom: -.1rem;
+          border-width: 0;
+          background: #00CCFF;
+          width: .35rem;
+          height: .08rem;
+          transform: rotate(45deg); }
+  .main-container #article-list-container {
+    align-self: center;
+    padding-left: 0px; }
+    .main-container #article-list-container #article-list {
+      padding-left: 0; }
+    .main-container #article-list-container .article-list-item {
+      list-style-type: none;
+      background-color: white;
+      margin: 1rem auto;
+      padding: .8rem .4rem;
+      border: 1px solid #00CCFF;
+      border-radius: 1rem; }
+      .main-container #article-list-container .article-list-item .title {
+        font-family: "Roboto", sans-serif;
+        color: black;
+        font-weight: bold;
+        font-size: 2vw;
+        padding: 0 1rem; }
+      .main-container #article-list-container .article-list-item .article-info {
+        font-family: "Roboto", sans-serif;
+        color: black;
+        font-size: 1.1vw;
+        padding: 0 1rem; }
+
+/*# sourceMappingURL=main.css.map */
