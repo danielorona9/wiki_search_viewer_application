@@ -11,13 +11,13 @@ document.addEventListener('DOMContentLoaded', function() {
     if (inputKey === 13) {
       if (searchInput === '' || searchInput === undefined || searchInput === 'Search Wiki') {
         alert('please enter a search.');
-      }else {
+      } else {
         fetchQuery(searchInput);
       }
 
-    }// end of if
+    } // end of if
 
-  });// end of wikiSearchInput enter event handler
+  }); // end of wikiSearchInput enter event handler
 
   wikiSearchBtn.addEventListener('click', function() {
     let searchInput = document.getElementById('txt-search').value;
